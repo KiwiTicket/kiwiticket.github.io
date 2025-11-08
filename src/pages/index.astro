@@ -1,0 +1,81 @@
+---
+// Astro component frontmatter
+import "../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL}favicon.png`} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Thank You - KiwiTicket</title>
+    <meta name="description" content="Thank you for 5 amazing years with KiwiTicket. We're grateful to all our producers and customers who made this journey possible." />
+    <meta property="og:title" content="Thank You - KiwiTicket" />
+    <meta property="og:description" content="Thank you for 5 amazing years with KiwiTicket. We're grateful to all our producers and customers who made this journey possible." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content={`${import.meta.env.BASE_URL}images/kiwiticket_logo.svg`} />
+    <meta property="og:url" content="https://kiwiticket.github.io/farewell" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Thank You - KiwiTicket" />
+    <meta name="twitter:description" content="Thank you for 5 amazing years with KiwiTicket. We're grateful to all our producers and customers who made this journey possible." />
+    <meta name="twitter:image" content={`${import.meta.env.BASE_URL}images/kiwiticket_logo.svg`} />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="KiwiTicket" />
+    <meta name="keywords" content="KiwiTicket, ticketing, New Zealand, farewell, thank you, event ticketing" />
+    <link rel="canonical" href="https://kiwiticket.github.io/farewell" />
+
+  </head>
+  <body>
+    <main class="container">
+      <div class="logo-header">
+        <img src={`${import.meta.env.BASE_URL}images/kiwiticket_logo.svg`} alt="KiwiTicket Logo" class="logo" />
+        <h1 class="brand-name">KiwiTicket</h1>
+      </div>
+
+      <div class="content">
+        <h2 class="title">Thank You</h2>
+        <p class="subtitle">
+          After 5 incredible years, KiwiTicket is saying goodbye
+        </p>
+
+        <div class="card">
+          <div class="message">
+            <p>
+              To all our amazing <span class="highlight">event producers</span> who trusted us with their dreams and to every
+              <span class="highlight">ticket buyer</span> who discovered something special through our platform,
+              <strong>thank you</strong>.
+            </p>
+
+            <p>
+              For five years, we've been privileged to be part of New Zealand's vibrant events scene.
+              From intimate gigs to outdoor concerts, comedy festivals to high school productions, community fundraisers to cultural celebrations,
+              you made KiwiTicket more than just a ticketing platform, you made it a community.
+            </p>
+
+            <p>
+              While this chapter is closing, the memories, connections, and experiences you've all created
+              will live on. Thank you for letting us be part of your journey.
+            </p>
+
+            <p>
+              <em>Ngā mihi and farewell,<br />The KiwiTicket Team</em>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="contact">
+          For any questions or support, please contact us at
+          <a href="mailto:help@kiwiticket.co.nz" class="contact-email">help@kiwiticket.co.nz</a>
+        </p>
+        <p class="farewell">
+          2019 - 2025 • KiwiTicket
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

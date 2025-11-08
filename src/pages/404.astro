@@ -1,0 +1,60 @@
+---
+// Astro component frontmatter
+import "../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL}favicon.png`} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Page Not Found - KiwiTicket</title>
+    <meta name="description" content="The page you're looking for doesn't exist. Visit our farewell page to learn about KiwiTicket's closure." />
+    <meta property="og:title" content="Page Not Found - KiwiTicket" />
+    <meta property="og:description" content="The page you're looking for doesn't exist. Visit our farewell page to learn about KiwiTicket's closure." />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="logo-header">
+        <img src={`${import.meta.env.BASE_URL}images/kiwiticket_logo.svg`} alt="KiwiTicket Logo" class="logo" />
+        <h1 class="brand-name">KiwiTicket</h1>
+      </div>
+
+      <div class="content">
+        <h2 class="title">Page Not Found</h2>
+        <p class="subtitle">
+          The page you're looking for doesn't exist
+        </p>
+
+        <div class="card">
+          <div class="message">
+            <p>
+              It looks like you've stumbled upon a page that doesn't exist.
+              KiwiTicket has closed down after 5 amazing years of service.
+            </p>
+
+            <p>
+              <a href="/" style="color: var(--color-primary); text-decoration: none; font-weight: 600;">
+                ← Return to our farewell message
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="contact">
+          For any questions or support, please contact us at
+          <a href="mailto:help@kiwiticket.co.nz" class="contact-email">help@kiwiticket.co.nz</a>
+        </p>
+        <p class="farewell">
+          2019 - 2025 • KiwiTicket • Thank you for the memories
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
